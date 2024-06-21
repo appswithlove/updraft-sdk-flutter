@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - updraft_sdk_flutter (0.0.1):
+    - Flutter
+    - UpdraftSDK (= 0.5.7)
+  - UpdraftSDK (0.5.7)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - updraft_sdk_flutter (from `.symlinks/plugins/updraft_sdk_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - UpdraftSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  updraft_sdk_flutter:
+    :path: ".symlinks/plugins/updraft_sdk_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  updraft_sdk_flutter: 5c303d53e084af8fe870036794f720edf69c6dec
+  UpdraftSDK: 965fabbb81130038b355154583f6a8349fa4235d
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
