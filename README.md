@@ -59,24 +59,3 @@ A prompt is shown to the user to inform him of the change of state of the feedba
 
 If enabled, the user is explained how he can give feedback.
 User can take a screenshot to give a feedback.
-
-## Advanced setup:  Logging
-
-To check if data is send properly to Updraft and also see some additional SDK log data in the console, you can set different log levels.
-
-To change the log level, add the following line before starting the SDK:
-
-```
-    settings.setLogLevel(UpdraftSettings.LOG_LEVEL_DEBUG);
-```
-
-
-Default level: <b>LOG_LEVEL_ERROR</b> => Only warnings and errors will be printed.
-
-## Local Development
-
-In order to locally develop this plugin, the sample project can be used for easy testing. Additionally, the gradle task `install` allows to install the current version to Maven Local.
-
-## Release
-
-In order to release a new version of this plugin, create a new release on GitHub and the [pipeline](.github/workflows/publish.yml) will automatically publish the new version to Maven Central.
