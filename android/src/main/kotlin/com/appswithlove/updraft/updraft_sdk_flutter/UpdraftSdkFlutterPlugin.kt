@@ -39,7 +39,8 @@ class UpdraftSdkFlutterPlugin : FlutterPlugin, MethodCallHandler {
 
     private fun initNativeSdk(call: MethodCall, result: Result) {
         val application = flutterPluginBinding?.applicationContext as? Application
-        if (application == null) {
+        val renderer = flutterPluginBinding?.flutterEngine?.renderer
+        if (application == null || renderer == null) {
             result.error("100", "Wrong initialisation state", null)
             return
         }
@@ -52,8 +53,9 @@ class UpdraftSdkFlutterPlugin : FlutterPlugin, MethodCallHandler {
 
         try {
             val settings = SettingsExtensions.fromMap(args)
-            Updraft.initialize(application, settings)
+            Updraft.initialize(application, settings, FlutterScreenshotProvider(renderer))
             Updraft.getInstance()?.start()
+
             result.success("")
         } catch (e: Exception) {
             result.error("102", e.message, e)

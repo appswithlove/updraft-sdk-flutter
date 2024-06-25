@@ -17,10 +17,11 @@ object SettingsExtensions {
         }
 
         val baseUrl = map["baseUrl"] as? String
+        val showFeedbackAlert = map["showFeedbackAlert"] as Boolean?
         return Settings().apply {
             this.sdkKey = sdkKey
             this.appKey = appKey
-            showFeedbackAlert = true
+            this.showFeedbackAlert = showFeedbackAlert ?: false
             if (baseUrl != null) {
                 this.baseUrl = baseUrl
             }
