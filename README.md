@@ -18,10 +18,7 @@ Updraft is built by App Agencies [Apps with love](https://appswithlove.com/) and
 Add this line to your pubspec.yaml file:
 
 ```
-updraft_sdk_flutter:
-    git:
-      url: https://github.com/appswithlove/updraft-sdk-flutter.git
-      ref: main
+updraft_sdk_flutter: ^0.0.1-dev1
 
 ```
 
