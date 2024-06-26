@@ -1,7 +1,7 @@
 name: updraft_sdk_flutter
 description: "Updraft Flutter SDK project."
 version: 0.0.1-dev1
-homepage: https://github:com/appswithlove/updraft-sdk-flutter
+homepage: https://github.com/appswithlove/updraft-sdk-flutter
 
 environment:
   sdk: '>=2.17.0 <4.0.0'
