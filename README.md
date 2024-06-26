@@ -1,4 +1,4 @@
-![Updraft: Mobile App Distribution](updraft.png)
+![Updraft: Mobile App Distribution](https://raw.githubusercontent.com/appswithlove/updraft-sdk-flutter/master/updraft.png)
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/appswithlove/updraft-sdk-flutter/master/LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@GetUpdraft-blue.svg?style=flat)](https://twitter.com/GetUpdraft)
 
