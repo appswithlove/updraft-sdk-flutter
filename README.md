@@ -18,7 +18,7 @@ Updraft is built by App Agencies [Apps with love](https://appswithlove.com/) and
 Add this line to your pubspec.yaml file:
 
 ```
-updraft_sdk_flutter: ^0.0.1-dev2
+updraft_sdk_flutter: ^0.0.1-dev3
 
 ```
 
