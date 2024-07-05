@@ -17,5 +17,5 @@ jobs:
         with:
           accessToken: ${{ secrets.OAUTH_ACCESS_TOKEN }}
           refreshToken: ${{ secrets.OAUTH_REFRESH_TOKEN }}
-          skip_test: true
+          skipTests: true
           flutter: true
