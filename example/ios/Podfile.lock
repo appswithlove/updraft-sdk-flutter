@@ -4,8 +4,8 @@ PODS:
     - Flutter
   - updraft_sdk_flutter (0.0.1):
     - Flutter
-    - UpdraftSDK (= 0.5.7)
-  - UpdraftSDK (0.5.7)
+    - UpdraftSDK (= 0.5.8)
+  - UpdraftSDK (0.5.8)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -26,10 +26,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
-  updraft_sdk_flutter: 5c303d53e084af8fe870036794f720edf69c6dec
-  UpdraftSDK: 965fabbb81130038b355154583f6a8349fa4235d
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+  updraft_sdk_flutter: d3b2595be7bdc838cabf945a176816e88064a319
+  UpdraftSDK: 3723c040080fa4be73fdf56dd74e8ae54522ebf8
 
-PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+PODFILE CHECKSUM: 7be2f5f74864d463a8ad433546ed1de7e0f29aef
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

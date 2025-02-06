@@ -14,7 +14,7 @@ A new Flutter project.
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
-  s.dependency 'UpdraftSDK', '0.5.7'
+  s.dependency 'UpdraftSDK', '0.5.8'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
 
